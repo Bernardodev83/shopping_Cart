@@ -38,6 +38,7 @@
     line-height: 25px;
     color: var(--Blue-shadow);
     font-weight: bold;
+   
 }
 
 .containerBTN{
@@ -74,7 +75,6 @@
         width: 375px;
         height: 100%;
         flex-direction: column;
-        margin: 0 auto;
     }
     .card_info_product{
         height: 350px;
@@ -87,6 +87,7 @@
       font-size: 12px;
        color: var(--Blue-shadow);
        font-weight: bold;
-       margin: 30px 0;
+       margin: 30px ;
+       
      }
 }
