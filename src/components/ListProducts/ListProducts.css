@@ -61,10 +61,10 @@
 }
 @media (max-width:400px) {
     .container_products {
-        width: 375px;
-        margin: 0 auto;
+        width: 350px;
         display: grid;
         grid-template-columns: 1fr;
-   
+        justify-content: center;
+        padding-left: 20px;
     }
 }
