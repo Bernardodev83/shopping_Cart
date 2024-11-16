@@ -39,6 +39,6 @@ export const AllProducts = () => {
        <TotalProducts />
     </>
   ) : (
-      <h2 className="cartvacio">containerTitle</h2>
+      <h2 className="cartvacio">empty cart</h2>
   )
 }
