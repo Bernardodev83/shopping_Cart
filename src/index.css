@@ -1,0 +1,25 @@
+:root {
+  --Red: hsl(0, 100%, 74%);
+  --Red-shadow: hsla(0, 100%, 74%, 0.5);
+  --Green: hsl(154, 59%, 51%);
+  --Green-shadow: hsla(154, 59%, 51%, 0.5);
+  --Blue: hsl(248, 32%, 49%);
+  --Blue-shadow: hsla(248, 32%, 49%, 0.5);
+  --DarkBlue: hsl(249, 10%, 26%);
+  --GrayishBlue: hsl(246, 25%, 77%);
+}
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width : 400px) {
+  body {
+    width: 375px;
+    margin: 0 auto;
+  }
+}
