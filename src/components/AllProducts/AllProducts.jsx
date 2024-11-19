@@ -29,7 +29,7 @@ export const AllProducts = () => {
             <img src={product.image} className="addProductImage"/>
           </div>
           <div className="containerTitle">
-            <h2>{product.title}</h2>
+            <h2 className="allProductTitle">{product.title}</h2>
           </div>
            <ItemCounts product = {product} />
           <h2 className="price">{product.price * product.quantity} $</h2>

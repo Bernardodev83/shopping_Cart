@@ -29,7 +29,7 @@
     right: -18px;
     background-color: var(--Blue);
     text-align: center;
-    padding-top: 2px;
+    padding-top: -2px;
 }
 .toLink{
     text-decoration: none;
@@ -47,5 +47,9 @@
     }
     .titleShoping{
         font-size: 18px;
+    }
+    .countIcon{
+    padding-top: 0px;
+    font-size: 14px;
     }
 }

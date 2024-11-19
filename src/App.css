@@ -1,10 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;1,700&family=Kumbh+Sans:wght@400;700&family=League+Spartan:wght@400;500;700&family=Poppins:ital,wght@0,200;0,500;0,700;1,200;1,600&family=Ubuntu:wght@300;500&display=swap');
+
+
+
+
+:root {
+  --Red: hsl(0, 78%, 62%);
+  --Blue: hsl(223, 87%, 63%);
+  --white: hsl(0, 0%, 100%);
+  --Orange: hsl(25, 97%, 53%);
+  --RedLigth: hsl(0, 100%, 74%);
+  --Violet: hsl(257, 40%, 49%);
+  --SoftMagenta: hsl(300, 69%, 71%);
+  --Cyan: hsl(180, 62%, 55%);
+  --OrangeLigth: hsl(34, 97%, 64%);
+  --Black: #191c32;
+  --Green: hsl(154, 59%, 51%);
+  --Green-shadow: hsla(154, 59%, 51%, 0.5);
+ 
+}
+
 body{
   background-image: url('./assets/bg-intro-desktop.png');
     font-family: 'Poppins', sans-serif;
       font-size: 16px;
       background-repeat: no-repeat;
       background-size: cover;
-      background-color: var(--Red);
+      background-color: var(--RedLigth);
 }
 
 @media (max-width : 400px) {

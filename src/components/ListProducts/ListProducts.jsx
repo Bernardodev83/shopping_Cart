@@ -29,7 +29,7 @@ export const ListProducts = () => {
                                   Name Product
                                </h3>
                               <h2 className="titleProduct">{product.title}</h2>
-                              <h2 className="card_price">{product.price} $</h2>   
+                              <h3 className="card_price">{product.price} $</h3>   
                            </div>
                       </div> 
                   </div>  

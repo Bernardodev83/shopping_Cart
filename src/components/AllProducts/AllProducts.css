@@ -4,6 +4,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 70px;
 }
 
 .containerImageADD{
@@ -16,6 +17,7 @@
     align-items: center;
     background-color: #fff;
     box-shadow: 3px 3px 8px var(--DarkBlue);
+   
 }
 .addProductImage{
     width: 100px;
@@ -32,11 +34,27 @@
     font-size: 50px;
     color: #fff;
 }
+.allProductTitle{
+    color: var(--DarkBlue);
+    font-size: 18px;
+}
 .price{
     color: #fff;
 }
 .deleteIcon{
     cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #fff;
+   color: var(--Black);
+   font-size: 18px;
+   transition: 300ms;
+}
+.deleteIcon:hover{
+    color: var(--Red);
+    transform: translateY(-5px);
 }
 .cartvacio{
     text-align: center;
@@ -64,5 +82,9 @@
     }
     .deleteIcon{
         font-size: 14px;
+        padding-top: 5px;
+    }
+    .allProductTitle{
+        font-size: 10px;
     }
 }

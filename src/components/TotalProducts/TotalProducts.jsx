@@ -8,7 +8,7 @@ import './TotalProducts.css'
 
 export const TotalProducts = () => {
 
-    const { addCart, setCount, count } = useContext(productsData)
+    const { addCart, setCount } = useContext(productsData)
     
   const total = addCart.reduce((acc, curr) => acc + curr.price * curr.quantity, 0)
   
